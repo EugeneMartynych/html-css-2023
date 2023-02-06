@@ -1,0 +1,74 @@
+body {
+  font-family: sans-serif;
+}
+
+.article-main {
+  border: 5px solid black;
+}
+
+h2 {
+  font-size: 22px;
+  background-color: #f7f7f7;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+img {
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+}
+
+.price {
+  font-size: 24px;
+}
+
+.free-shipping {
+  font-weight: bold;
+  color: #777;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+/* MORE INFORMATION LINK */
+
+a:link,
+a:visited {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* UNORDERED LIST */
+
+h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+ul {
+  font-size: 16px;
+  list-style: square;
+}
+
+/* ADD TO CART BUTTON */
+
+.btn-add-to-cart {
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn-add-to-cart:hover {
+  background-color: white;
+  color: black;
+  border: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
