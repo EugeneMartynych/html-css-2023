@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.article {
+  border: 4px solid black;
+  width: 825px;
+  margin: 50px auto;
+  position: relative;
+}
+
+h3 {
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.shoes-img {
+  width: 250px;
+  margin-right: 20px;
+  float: left;
+}
+
+/* PRODUCT INFO */
+
+.product-info {
+  width: 280px;
+  margin-top: 20px;
+  margin-right: 40px;
+  float: left;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: bold;
+  float: left;
+  margin-bottom: 12px;
+}
+
+.shipping {
+  float: right;
+  color: #9a9999;
+  font-size: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.description {
+  clear: both;
+  margin-bottom: 10px;
+}
+
+a:link,
+a:visited {
+  display: block;
+  color: black;
+}
+
+.colors {
+  margin-top: 20px;
+}
+
+.color {
+  display: inline-block;
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.blue {
+  background: rgb(47, 110, 226);
+}
+
+.red {
+  background: rgb(236, 47, 47);
+}
+
+.yellow {
+  background: rgb(240, 191, 30);
+}
+
+.green {
+  background: rgb(144, 204, 32);
+}
+
+.brown {
+  background: rgb(136, 82, 20);
+}
+
+/* PRODUCT DETAILS */
+
+.product-details {
+  display: inline-block;
+  width: 225px;
+  margin-top: 20px;
+}
+
+.list-header {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.product-list {
+  list-style: square;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* BUY BUTTON */
+
+.buy-btn {
+  background-color: black;
+  color: white;
+  width: 100%;
+  border: none;
+  border-top: 4px solid black;
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 20px 0;
+  cursor: pointer;
+}
+
+.buy-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+/* LAYERS */
